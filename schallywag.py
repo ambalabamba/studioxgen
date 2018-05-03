@@ -2,6 +2,7 @@ import threading
 import requests
 import random
 import json
+import os
 
 def spam():
     threading.Timer(0.001, spam).start()
