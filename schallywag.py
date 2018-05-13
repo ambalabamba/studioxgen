@@ -32,4 +32,12 @@ def spam():
     
     data = {"data": "inf=5000 900000  &tiles={}".format(datas+datas1+datas2+datas3+datas4+datas5+datas6+datas7+datas8+datas9+datas10+datas11+datas12+datas13+datas14+datas15+datas16+datas17+datas18+datas19+datas20)}
     requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=sneezesisbad&password={}&slot_id=0&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=sneezesisbad&password={}&slot_id=1&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=sneezesisbad&password={}&slot_id=2&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=sneezesisbad&password={}&slot_id=3&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=blueash&password={}&slot_id=0&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=blueash&password={}&slot_id=1&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=blueash&password={}&slot_id=2&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=jt399&password={}&slot_id=0&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
+    requests.post("http://api.xgenstudios.com/?method=xgen.stickarena.maps.save&username=jt399&password={}&slot_id=1&name=Concrete%20Jugnle%20(06)".format(os.environ['PASSWORD']), data=data)
 spam()
